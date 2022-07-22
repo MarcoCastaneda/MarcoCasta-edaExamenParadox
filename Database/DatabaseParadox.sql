@@ -30,3 +30,7 @@ GO
 
 INSERT INTO Usuario VALUES('Marco','Castañeda','Bautista','marco123@gmail.com','123')
 
+
+
+
+
