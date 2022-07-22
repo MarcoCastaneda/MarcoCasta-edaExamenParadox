@@ -1,6 +1,6 @@
-CREATE DATABASE MarcoCastañedaParadox
+CREATE DATABASE MarcoCastañedaParados
 GO
-USE MarcoCastañedaParadox
+USE MarcoCastañedaParados
 GO
 
 CREATE TABLE Usuario(
@@ -13,7 +13,7 @@ Email VARCHAR(50),
 Password VARCHAR(50))
 GO
 
-CREATE PROCEDURE [dbo].[GetByEmail]
+CREATE PROCEDURE GetByEmail
 @Email VARCHAR (50)
 AS
 SELECT
@@ -26,6 +26,7 @@ FROM Usuario
 
 WHERE Email = @Email
 
+GO
 
 INSERT INTO Usuario VALUES('Marco','Castañeda','Bautista','marco123@gmail.com','123')
 
